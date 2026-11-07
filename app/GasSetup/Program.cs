@@ -1,5 +1,9 @@
+using System;
+using System.Drawing;
 using System.IO.Ports;
+using System.Linq;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 ApplicationConfiguration.Initialize(); Application.Run(new MainForm());
 sealed class MainForm : Form {
