@@ -1,0 +1,3 @@
+#pragma once
+#define GAS_FIRMWARE_VERSION "1.0.0"
+

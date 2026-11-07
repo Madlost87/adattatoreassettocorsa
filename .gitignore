@@ -1,13 +1,20 @@
-# PlatformIO
+# PlatformIO / ESP-IDF generated files
 .pio/
-.pioenvs/
-.piolibdeps/
-.vscode/.browse.c_cpp.db*
-.vscode/c_cpp_properties.json
-.vscode/launch.json
-.vscode/ipch
+firmware/managed_components/
+
+# Local credentials and build outputs
+.ota-password
+__pycache__/
+*.py[cod]
+app/**/bin/
+app/**/obj/
+release/
 
 # OS / editor
 .DS_Store
 Thumbs.db
 *.swp
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
